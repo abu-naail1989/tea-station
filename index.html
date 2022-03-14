@@ -15,6 +15,23 @@
   </head>
   <body>
     <!-- navbar -->
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="skills.html" class="nav-link">skills</a></li>
+        <li><a href="about.html" class="nav-link">about</a></li>
+        <li><a href="products.html" class="nav-link">products</a></li>
+      </ul>
+    </nav>
     <!-- header -->
     <header class="header">
       <div class="banner">
@@ -284,5 +301,119 @@
         </article>
       </div>
     </section>
+    <!-- end of services -->
+
+    <!-- contact -->
+    <section class="contact">
+      <div class="section-center clearfix">
+        <!-- contact info -->
+
+        <article class="contact-info">
+          <!-- contact item address-->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-location-arrow"></i>
+              </span>
+              address
+            </h4>
+            <h4 class="contact-text">
+              234 Aboagyewaa Apartments <br />
+              Apple street, Amrahia <br />
+              Adenta Dist. - GA
+            </h4>
+          </div>
+          <!-- end of contact item address -->
+
+          <!-- contact item email-->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+              email
+            </h4>
+            <h4 class="contact-text">email@email.com</h4>
+          </div>
+          <!-- end of contact item email-->
+
+          <!-- contact item  telephone-->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </span>
+              telephone
+            </h4>
+            <h4 class="contact-text">+233 1234 567</h4>
+          </div>
+          <!-- end of contact item  telephone-->
+        </article>
+
+        <!-- contact form -->
+        <article class="contact-form">
+          <h3>contact us</h3>
+          <form action="">
+            <div class="form-group">
+              <!-- inputs -->
+              <input
+                type="text"
+                placeholder="name"
+                class="form-control"
+                name="name"
+              />
+
+              <input
+                type="email"
+                placeholder="email"
+                class="form-control"
+                name="email"
+              />
+
+              <textarea
+                name="message"
+                placeholder="message"
+                class="form-control"
+                rows="5"
+              ></textarea>
+            </div>
+            <!-- button -->
+            <button type="submit" class="submit-btn btn">submit here</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!-- end of contact -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <!-- social icon  facebook-->
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- end of social icon facebook -->
+
+          <!-- social icon  twitter-->
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- end of social icon twitter -->
+
+          <!-- social icon instagram-->
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- end of social icon instagram -->
+        </div>
+        <h4 class="footer-text">
+          &copy; <span id="date"></span>
+          <span class="company"> tea station</span>
+          all rights reserved
+        </h4>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
